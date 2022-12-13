@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins';
+    background-color: #FBFBCC;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 18px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    color: #03045E;
+}
+.name_container{
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+.nav_links{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+}
+.nav_links li{
+    margin: 30px;
+}
+.nav_links a{
+    text-decoration: none;
+    color: black;
+}
+#Home{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.home_left{
+    width: 50%;
+    padding-top: 50px;
+}
+.home_right{
+    width: 50%;
+    text-align: right;
+}
+.home_hello{
+    color: #03045E;
+    font-size: 28px;
+}
+.web_designer{
+    font-size: 100px;
+    font-weight: 800;
+    color: #03045E;
+    line-height: 120px;
+}
+.resume{
+    margin-top: 30px;
+}
+.resume a{
+    text-decoration: none;
+    color: black;
+    background-color: #F5EE84;
+    padding: 15px;
+}
+.profile{
+    border-radius: 500px;
+}
+.brown_head{
+    color: #474306;
+    font-size: 100px;
+    font-weight: bolder;
+    line-height: 116px;
+    margin-bottom: 20px;
+    padding-top: 90px;
+}
+.about_para{
+    width: 80%;
+    color: #03045E;
+}
+.about_list{
+    margin-top: 80px;
+    color: #03045E;
+    padding-left: 250px;
+    padding-right: 200px;
+}
+.about_list li{
+    margin-top: 30px;
+}
+.skills_img{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.skills_img div{
+    border: solid black 2px;
+    padding: 20px;
+    text-align: center;
+}
+.css3{
+    padding-left: 29.07px;
+    padding-right: 29.07px;
+}
+#Contact{
+    margin-bottom: 200px;
+}
+.contact_main{
+    display: flex;
+    justify-content: space-between;
+}
+.contact_image{
+    width: 80%;
+}
+.contact_para div{
+    display: flex;
+}
+.contact_para img{
+    padding-left: 4px;
+    padding-top: 4px
+    ;
+}
+.contact_para a{
+    text-decoration: none;
+}
+.mail a{
+    color: #EA4335;
+}
+.linkedin a{
+    color: #0B66C2;
+}
+.github a{
+    color: #010B1B;
+}
