@@ -61,8 +61,12 @@ body{
 .resume a{
     text-decoration: none;
     color: black;
-    background-color: #F5EE84;
+    background-color: #faa302;
     padding: 15px;
+}
+.resume a:hover{
+    background-color: #333;
+    color: #faa302;
 }
 .profile{
     border-radius: 500px;
