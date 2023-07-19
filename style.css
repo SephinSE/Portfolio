@@ -67,6 +67,7 @@ body{
 .resume a:hover{
     background-color: #333;
     color: #faa302;
+    cursor: pointer;
 }
 .profile{
     border-radius: 500px;
